@@ -1,0 +1,24 @@
+{
+    "name": "kojirock5260/cron-doc-generator",
+    "description": "cron document generator",
+    "type": "library",
+    "keywords": ["cron", "document"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kojirock5260",
+            "email": "kojirock5260@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kojirock\\CronDocGen\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/cron-doc-gen"
+    ]
+}

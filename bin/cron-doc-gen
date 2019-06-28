@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . "/../vendor/autoload.php";
+use Kojirock\CronDocGen\Runner;
+
+$runner = new Runner();
+$exitCode = $runner->run($argv[1]);
+exit($exitCode);
